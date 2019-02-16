@@ -12,3 +12,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.root {
+  display: grid;
+  justify-content: center;
+}
+
+.SubscribtionFormBlock {
+  display: block;
+  position: absolute;
+  background: #86aecc;
+  border: 0px solid #86aecc;
+  -webkit-box-shadow: 13px 10px 47px -16px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 13px 10px 47px -16px rgba(0, 0, 0, 0.63);
+  box-shadow: 13px 10px 47px -16px rgba(0, 0, 0, 0.63);
+  width: 20%;
+  height: auto;
+  padding: 10px;
+  margin: 20px 0px 0px 20px;
+}
+
+.SubscibeForm {
+  padding: 0px;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.wrongInput {
+  background-color: #ff845e;
+  color: #ffffff;
+  font-size: 1.4em;
+  text-align: center;
+  -webkit-box-shadow: 9px 10px 16px -6px rgba(0, 0, 0, 0.50);
+  -moz-box-shadow: 9px 10px 16px -6px rgba(0, 0, 0, 0.50);
+  box-shadow: 9px 10px 16px -6px rgba(0, 0, 0, 0.50);;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align: center;
+  color: #ffffff;
+}
+
+button {
+  color: white;
+  font-weight: 700;
+  padding: 20px;
+  background-color: cornflowerblue;
+  border: none;
+  width: auto;
+  border-radius: 0px 30px 0px 30px;
+  -moz-border-radius: 0px 30px 0px 30px;
+  -webkit-border-radius: 0px 30px 0px 30px;
+  -webkit-box-shadow: 13px 10px 47px -16px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 13px 10px 47px -16px rgba(0, 0, 0, 0.63);
+  box-shadow: 13px 10px 47px -16px rgba(0, 0, 0, 0.63);
+}
+
+button:hover {
+  -moz-transform:  translateY(3px);
+-webkit-transform:  translateY(3px);
+-o-transform:  translateY(3px);
+-ms-transform:  translateY(3px);
+transform:  translateY(3px);
+-webkit-transition: all 1000ms ease;
+-moz-transition: all 1000ms ease;
+-ms-transition: all 1000ms ease;
+-o-transition: all 1000ms ease;
+transition: all 1000ms ease;
+}
+
+input {
+  color: #347bb0;
+  
+  
+}
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.button-submit {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.form-group {
+  text-align: center;
+  height: 20px;
+  padding: 10px;
+}
+.form-control {
+  height: 30px;
+  border: 1px solid #5e5e5eab;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
