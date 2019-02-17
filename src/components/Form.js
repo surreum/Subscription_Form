@@ -51,7 +51,7 @@ class Form extends Component {
   }
 
   validateForm() {
-    this.setState({formValid: this.state.emailValid && this.state.phoneValid && this.state.wwwValid});
+    this.setState({formValid: this.state.emailValid && this.state.phoneValid && this.state.URLValid});
   }
     
   render() {
